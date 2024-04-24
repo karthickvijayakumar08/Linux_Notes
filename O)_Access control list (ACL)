@@ -40,27 +40,9 @@ To remove all ACL
 
 # setfacl -b  file/directory   		#removing all ACL from file/direcoty
 
-
-
-
-
-
-
-
-find / -perm -4000 -exec ls -l {} \;
-find / -perm -2000 -exec ls -l {} \;
-find / -perm -1000 -exec ls -l {} \;
-
-
-
-
 getfacl -R /secure
 
-
-
-
 # setfacl -R -m g:groupname:rwx filename
-
 
 setfacl -x u:balaji:rwx
 
