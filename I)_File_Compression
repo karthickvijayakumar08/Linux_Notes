@@ -29,7 +29,7 @@ zip -d <archive file> <files for deletion>
 
 zip -d files.zip file5.txt
 
-fallocate 1G testfile
+fallocate -l 1G testfile
 
 zip test.zip testfile
 ls -lh
