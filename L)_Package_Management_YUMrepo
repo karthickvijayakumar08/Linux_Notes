@@ -49,7 +49,7 @@ select VM --> settings --> CD/DVD(IDE)--> Use ISO image file--> Browse --> selet
 
 
 7.if createrepo command is not installed,install that and create the repository
-#cd /var/ftp/pub/AppStream/Packages/
+#cd /iso/AppStream/Packages
 #rpm -ivh createrepo_c-0.11.0-1.el8.x86_64.rpm createrepo_c-libs-0.11.0-1.el8.x86_64.rpm drpm-0.3.0-14.el8.x86_64.rpm
 
 once createrepo command in available then create repository
