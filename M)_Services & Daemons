@@ -7,6 +7,7 @@ RHEL/OEL/CentOS – 7/8/9
 
 
 Start and Stop services
+=======================
 #systemctl start crond
 #systemctl start firewalld
 
@@ -35,10 +36,6 @@ Enable and Disable services
 
 # systemctl is-active sshd
 # systemctl is-enabled sshd
-
-#systemctl mask sshd
-#systemctl unmask sshd
-
 
 list all services
 =====================
