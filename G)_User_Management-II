@@ -9,7 +9,7 @@ useradd -u 2000 -g 3000 -c 'test user' -d /home/test1 -s /bin/sh username
 useradd -M
 useradd -e '2021-12-25' username
 
-balaji:x:1001:1001::/home/balaji:/bin/bash
+karthik:x:1001:1001::/home/karthik:/bin/bash
 
 -l - loginname
 -u - uid
